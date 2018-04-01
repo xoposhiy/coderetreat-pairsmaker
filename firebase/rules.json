@@ -1,0 +1,10 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": "auth.uid == '9ckfbgqFLDY1NyW5zLqo2dkSjBz1'",
+    "$event_id": {
+      ".read": true,
+      ".write": "data.hasChild('owners/' + auth.uid)"
+    }
+  }
+}

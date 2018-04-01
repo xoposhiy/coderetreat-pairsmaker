@@ -1,0 +1,48 @@
+.guest-info{
+    float:left;
+    margin: 5px;
+    padding:5px;
+    text-align: center;
+}
+
+
+.guest-info-bynumbers{
+    width:140px;
+}
+.with-expert {
+    background-color: yellow;
+}
+.lucky {
+    font-weight: bold;
+}
+.hidden-link{
+    color:transparent;
+    font-size: small;
+}
+.hidden-link:hover{
+    color:gray;
+    font-weight: lighter;
+}
+.current-true{
+    background-color: yellow;
+}
+
+.loader {
+    width:100px;
+    margin: 100px auto;
+}
+
+.nopair {
+    background-color: orangered;
+}
+
+.same-group {
+    background-color: salmon;
+}
+
+.admin-sessions-remove-last{
+    margin-left: 10px;
+}
+.admin-sessions-create {
+    margin-left: 10px;    
+}
